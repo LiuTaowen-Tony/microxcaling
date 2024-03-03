@@ -90,6 +90,7 @@ class MxSpecs(collections.UserDict):
 
             "shared_exp_method": "max",
             "block_size": 0,
+            "mx_block_size": 0,
 
             "bfloat": 0,
             "fp": 0,
@@ -131,6 +132,7 @@ class MxSpecs(collections.UserDict):
 
             "shared_exp_method": "Shared exponent calculation method. " "Options: max, none",
             "block_size": "mx shared exponent block size",
+            "mx_block_size": "mx shared exponent block size",
 
             "bfloat": 
                 "BfloatX format (8exp + sign + mantissa). Only one of bfloat or fp can be used",
